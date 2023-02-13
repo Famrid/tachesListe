@@ -1,0 +1,3 @@
+ALTER TABLE task
+ALTER COLUMN worker_id
+DROP NOT NULL;

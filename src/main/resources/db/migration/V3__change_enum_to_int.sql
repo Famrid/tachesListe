@@ -1,0 +1,4 @@
+ALTER TABLE task
+ALTER COLUMN priority
+SET DATA TYPE INTEGER
+USING priority::integer;
